@@ -28,8 +28,6 @@ dependencies:
     # path: ../solana_wallet_adapter_ios
   solana_wallet_adapter_platform_interface: ^0.0.6
     # path: ../solana_wallet_adapter_platform_interface
-  solana_wallet_adapter_web: ^0.0.9
-    # path: ../solana_wallet_adapter_web
 
 dev_dependencies:
   flutter_test:
@@ -57,5 +55,4 @@ flutter:
         default_package: solana_wallet_adapter_android
       ios:
         default_package: solana_wallet_adapter_ios
-      web:
-        default_package: solana_wallet_adapter_web
+      
